@@ -1,0 +1,23 @@
+{
+  "name": "agno-dark-theme",
+  "displayName": "Agno Dark Theme",
+  "description": "Dark theme inspired by Agno colors: graphite background, red/orange accents and soft gray text.",
+  "version": "0.0.2",
+  "publisher": "local-agno",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "id": "agno-dark",
+        "label": "Agno Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/agno-dark-color-theme.json"
+      }
+    ]
+  }
+}

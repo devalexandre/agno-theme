@@ -1,0 +1,68 @@
+{
+  "name": "Agno Dark",
+  "variables": {
+    "bg": "#111113",
+    "bg2": "#151518",
+    "bg3": "#18181B",
+    "fg": "#D7D2CF",
+    "fgStrong": "#F2EDEA",
+    "muted": "#6A6664",
+    "muted2": "#8A8582",
+    "orange": "#FF6A45",
+    "red": "#FF4B2E",
+    "red2": "#B53A28",
+    "yellow": "#FFB86B",
+    "blue": "#8AB4F8",
+    "selection": "#3A211D",
+    "border": "#2A2A2F"
+  },
+  "globals": {
+    "background": "var(bg)",
+    "foreground": "var(fg)",
+    "caret": "var(orange)",
+    "selection": "var(selection)",
+    "line_highlight": "var(bg2)",
+    "gutter": "var(bg)",
+    "gutter_foreground": "#4B4B50"
+  },
+  "rules": [
+    {
+      "name": "Comment",
+      "scope": "comment",
+      "foreground": "var(muted)",
+      "font_style": "italic"
+    },
+    {
+      "name": "String",
+      "scope": "string",
+      "foreground": "var(orange)"
+    },
+    {
+      "name": "Keyword",
+      "scope": "keyword, storage",
+      "foreground": "var(red)",
+      "font_style": "bold"
+    },
+    {
+      "name": "Function",
+      "scope": "entity.name.function, support.function",
+      "foreground": "var(fgStrong)"
+    },
+    {
+      "name": "Class",
+      "scope": "entity.name.class, entity.name.type, support.type",
+      "foreground": "#E8E1DD",
+      "font_style": "bold"
+    },
+    {
+      "name": "Number",
+      "scope": "constant.numeric",
+      "foreground": "var(yellow)"
+    },
+    {
+      "name": "Operator",
+      "scope": "keyword.operator, punctuation",
+      "foreground": "var(muted2)"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+<scheme name="Agno Dark" version="142" parent_scheme="Darcula">
+  <metaInfo>
+    <property name="created">2026-05-15T00:00:00</property>
+    <property name="ide">idea</property>
+    <property name="ideVersion">2024.1</property>
+    <property name="modified">2026-05-15T00:00:00</property>
+    <property name="originalScheme">Agno Dark</property>
+  </metaInfo>
+  <colors>
+    <option name="CARET_ROW_COLOR" value="151518" />
+    <option name="CARET_COLOR" value="FF6A45" />
+    <option name="EDITOR_BACKGROUND" value="111113" />
+    <option name="GUTTER_BACKGROUND" value="111113" />
+    <option name="INDENT_GUIDE" value="242428" />
+    <option name="LINE_NUMBERS_COLOR" value="4B4B50" />
+    <option name="SELECTION_BACKGROUND_COLOR" value="3A211D" />
+    <option name="WHITESPACES" value="3A3A40" />
+  </colors>
+  <attributes>
+    <option name="TEXT">
+      <value><option name="FOREGROUND" value="D7D2CF" /><option name="BACKGROUND" value="111113" /></value>
+    </option>
+    <option name="DEFAULT_KEYWORD">
+      <value><option name="FOREGROUND" value="FF4B2E" /><option name="FONT_TYPE" value="1" /></value>
+    </option>
+    <option name="DEFAULT_STRING">
+      <value><option name="FOREGROUND" value="FF6A45" /></value>
+    </option>
+    <option name="DEFAULT_DOC_COMMENT">
+      <value><option name="FOREGROUND" value="FF4B2E" /></value>
+    </option>
+    <option name="DEFAULT_LINE_COMMENT">
+      <value><option name="FOREGROUND" value="6A6664" /><option name="FONT_TYPE" value="2" /></value>
+    </option>
+    <option name="DEFAULT_BLOCK_COMMENT">
+      <value><option name="FOREGROUND" value="6A6664" /><option name="FONT_TYPE" value="2" /></value>
+    </option>
+    <option name="DEFAULT_FUNCTION_DECLARATION">
+      <value><option name="FOREGROUND" value="F2EDEA" /></value>
+    </option>
+    <option name="DEFAULT_CLASS_NAME">
+      <value><option name="FOREGROUND" value="E8E1DD" /><option name="FONT_TYPE" value="1" /></value>
+    </option>
+    <option name="DEFAULT_NUMBER">
+      <value><option name="FOREGROUND" value="FFB86B" /></value>
+    </option>
+    <option name="DEFAULT_OPERATION_SIGN">
+      <value><option name="FOREGROUND" value="8A8582" /></value>
+    </option>
+  </attributes>
+</scheme>
