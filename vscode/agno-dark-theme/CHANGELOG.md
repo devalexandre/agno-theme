@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.0.6
+
+- Fixed Marketplace screenshot URLs for the extension overview.
+
 ## 0.0.5
 
 - Added Marketplace presentation metadata.

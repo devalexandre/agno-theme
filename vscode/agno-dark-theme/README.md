@@ -2,7 +2,7 @@
 
 A focused VS Code theme family inspired by Agno's official palette: graphite surfaces, clean light neutrals, crisp orange accents, and calm syntax colors for long coding sessions.
 
-![Agno One Dark preview](images/agno-one-dark.png)
+![Agno One Dark preview](https://raw.githubusercontent.com/devalexandre/agno-theme/main/vscode/agno-dark-theme/images/agno-one-dark.png)
 
 ## Themes
 
@@ -16,23 +16,23 @@ A focused VS Code theme family inspired by Agno's official palette: graphite sur
 
 ### Agno One Dark
 
-![Agno One Dark](images/agno-one-dark.png)
+![Agno One Dark](https://raw.githubusercontent.com/devalexandre/agno-theme/main/vscode/agno-dark-theme/images/agno-one-dark.png)
 
 ### Agno Dark
 
-![Agno Dark](images/agno-dark.png)
+![Agno Dark](https://raw.githubusercontent.com/devalexandre/agno-theme/main/vscode/agno-dark-theme/images/agno-dark.png)
 
 ### Agno Light
 
-![Agno Light](images/agno-light.png)
+![Agno Light](https://raw.githubusercontent.com/devalexandre/agno-theme/main/vscode/agno-dark-theme/images/agno-light.png)
 
 ### Agno Light Soft
 
-![Agno Light Soft](images/agno-light-soft.png)
+![Agno Light Soft](https://raw.githubusercontent.com/devalexandre/agno-theme/main/vscode/agno-dark-theme/images/agno-light-soft.png)
 
 ### Agno Light Graphite
 
-![Agno Light Graphite](images/agno-light-graphite.png)
+![Agno Light Graphite](https://raw.githubusercontent.com/devalexandre/agno-theme/main/vscode/agno-dark-theme/images/agno-light-graphite.png)
 
 ## Installation
 
@@ -47,7 +47,7 @@ Then select one of the Agno themes.
 You can also install a local VSIX:
 
 ```bash
-code --install-extension agno-dark-theme-0.0.5.vsix
+code --install-extension agno-dark-theme-0.0.6.vsix
 ```
 
 ## Palette
