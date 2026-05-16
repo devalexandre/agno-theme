@@ -1,0 +1,54 @@
+<scheme name="Agno Light" version="142" parent_scheme="Default">
+  <metaInfo>
+    <property name="created">2026-05-16T00:00:00</property>
+    <property name="ide">idea</property>
+    <property name="ideVersion">2024.1</property>
+    <property name="modified">2026-05-16T00:00:00</property>
+    <property name="originalScheme">Agno Light</property>
+  </metaInfo>
+  <colors>
+    <option name="CARET_ROW_COLOR" value="F9F9F9" />
+    <option name="CARET_COLOR" value="FF4017" />
+    <option name="EDITOR_BACKGROUND" value="FCFCFC" />
+    <option name="GUTTER_BACKGROUND" value="FCFCFC" />
+    <option name="INDENT_GUIDE" value="E0E0E0" />
+    <option name="LINE_NUMBERS_COLOR" value="8D8D8D" />
+    <option name="SELECTION_BACKGROUND_COLOR" value="FFD6C8" />
+    <option name="WHITESPACES" value="D9D9D9" />
+  </colors>
+  <attributes>
+    <option name="TEXT">
+      <value><option name="FOREGROUND" value="18181B" /><option name="BACKGROUND" value="FCFCFC" /></value>
+    </option>
+    <option name="DEFAULT_KEYWORD">
+      <value><option name="FOREGROUND" value="FF4017" /><option name="FONT_TYPE" value="1" /></value>
+    </option>
+    <option name="DEFAULT_STRING">
+      <value><option name="FOREGROUND" value="059669" /></value>
+    </option>
+    <option name="DEFAULT_DOC_COMMENT">
+      <value><option name="FOREGROUND" value="F25837" /></value>
+    </option>
+    <option name="DEFAULT_LINE_COMMENT">
+      <value><option name="FOREGROUND" value="838383" /><option name="FONT_TYPE" value="2" /></value>
+    </option>
+    <option name="DEFAULT_BLOCK_COMMENT">
+      <value><option name="FOREGROUND" value="838383" /><option name="FONT_TYPE" value="2" /></value>
+    </option>
+    <option name="DEFAULT_FUNCTION_DECLARATION">
+      <value><option name="FOREGROUND" value="09090B" /></value>
+    </option>
+    <option name="DEFAULT_CLASS_NAME">
+      <value><option name="FOREGROUND" value="2563EB" /><option name="FONT_TYPE" value="1" /></value>
+    </option>
+    <option name="DEFAULT_NUMBER">
+      <value><option name="FOREGROUND" value="F59E0B" /></value>
+    </option>
+    <option name="DEFAULT_OPERATION_SIGN">
+      <value><option name="FOREGROUND" value="646464" /></value>
+    </option>
+    <option name="DEFAULT_METADATA">
+      <value><option name="FOREGROUND" value="F25837" /><option name="FONT_TYPE" value="1" /></value>
+    </option>
+  </attributes>
+</scheme>

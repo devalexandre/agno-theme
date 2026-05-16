@@ -1,14 +1,32 @@
 {
   "name": "agno-dark-theme",
-  "displayName": "Agno Dark Theme",
-  "description": "Dark theme inspired by Agno colors: graphite background, red/orange accents and soft gray text.",
-  "version": "0.0.2",
-  "publisher": "local-agno",
+  "displayName": "Agno Theme",
+  "description": "VS Code themes inspired by Agno colors: graphite, light neutrals, orange accents and soft gray text.",
+  "version": "0.0.5",
+  "publisher": "devalexandre",
   "engines": {
     "vscode": "^1.80.0"
   },
   "categories": [
     "Themes"
+  ],
+  "keywords": [
+    "agno",
+    "theme",
+    "color theme",
+    "dark theme",
+    "light theme",
+    "one dark",
+    "graphite",
+    "developer theme"
+  ],
+  "files": [
+    "CHANGELOG.md",
+    "icon.png",
+    "images/**/*",
+    "LICENSE",
+    "README.md",
+    "themes/**/*.json"
   ],
   "contributes": {
     "themes": [
@@ -17,7 +35,45 @@
         "label": "Agno Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/agno-dark-color-theme.json"
+      },
+      {
+        "id": "agno-one-dark",
+        "label": "Agno One Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/agno-one-dark-color-theme.json"
+      },
+      {
+        "id": "agno-light",
+        "label": "Agno Light",
+        "uiTheme": "vs",
+        "path": "./themes/agno-light-color-theme.json"
+      },
+      {
+        "id": "agno-light-soft",
+        "label": "Agno Light Soft",
+        "uiTheme": "vs",
+        "path": "./themes/agno-light-soft-color-theme.json"
+      },
+      {
+        "id": "agno-light-graphite",
+        "label": "Agno Light Graphite",
+        "uiTheme": "vs",
+        "path": "./themes/agno-light-graphite-color-theme.json"
       }
     ]
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devalexandre/agno-theme"
+  },
+  "homepage": "https://github.com/devalexandre/agno-theme",
+  "bugs": {
+    "url": "https://github.com/devalexandre/agno-theme/issues"
+  },
+  "galleryBanner": {
+    "color": "#09090B",
+    "theme": "dark"
+  },
+  "icon": "icon.png",
+  "license": "MIT"
 }

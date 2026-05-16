@@ -1,0 +1,81 @@
+{
+  "name": "Agno Light Soft",
+  "variables": {
+    "bg": "#F9F9F9",
+    "bg2": "#F0F0F0",
+    "bg3": "#E8E8E8",
+    "fg": "#202020",
+    "fgStrong": "#18181B",
+    "muted": "#8D8D8D",
+    "muted2": "#71717A",
+    "orange": "#F25837",
+    "orange2": "#EB6E52",
+    "green": "#059669",
+    "yellow": "#F59E0B",
+    "blue": "#2563EB",
+    "red": "#B42318",
+    "selection": "#FF744826",
+    "border": "#D9D9D9"
+  },
+  "globals": {
+    "background": "var(bg)",
+    "foreground": "var(fg)",
+    "caret": "var(orange)",
+    "selection": "var(selection)",
+    "line_highlight": "var(bg2)",
+    "gutter": "var(bg)",
+    "gutter_foreground": "#8D8D8D"
+  },
+  "rules": [
+    {
+      "name": "Comment",
+      "scope": "comment",
+      "foreground": "var(muted)",
+      "font_style": "italic"
+    },
+    {
+      "name": "String",
+      "scope": "string",
+      "foreground": "var(green)"
+    },
+    {
+      "name": "Keyword",
+      "scope": "keyword, storage",
+      "foreground": "var(orange)",
+      "font_style": "bold"
+    },
+    {
+      "name": "Function",
+      "scope": "entity.name.function, support.function",
+      "foreground": "var(fgStrong)"
+    },
+    {
+      "name": "Class",
+      "scope": "entity.name.class, entity.name.type, support.type",
+      "foreground": "var(blue)",
+      "font_style": "bold"
+    },
+    {
+      "name": "Number",
+      "scope": "constant.numeric, constant.language",
+      "foreground": "var(yellow)"
+    },
+    {
+      "name": "Operator",
+      "scope": "keyword.operator, punctuation",
+      "foreground": "var(muted2)"
+    },
+    {
+      "name": "Decorator",
+      "scope": "meta.decorator, entity.name.function.decorator",
+      "foreground": "var(orange2)",
+      "font_style": "bold"
+    },
+    {
+      "name": "Invalid",
+      "scope": "invalid",
+      "foreground": "var(red)",
+      "font_style": "underline"
+    }
+  ]
+}

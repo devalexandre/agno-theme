@@ -1,0 +1,93 @@
+{
+  "name": "Agno One Dark",
+  "variables": {
+    "bg": "#09090B",
+    "bg2": "#111113",
+    "bg3": "#18181B",
+    "fg": "#D9D9D9",
+    "fgStrong": "#F0F0F0",
+    "muted": "#838383",
+    "muted2": "#8D8D8D",
+    "orange": "#FF4017",
+    "orange2": "#F25837",
+    "green": "#10B981",
+    "green2": "#34D399",
+    "yellow": "#FBBF24",
+    "blue": "#60A5FA",
+    "red": "#F87171",
+    "selection": "#FF744826",
+    "border": "#202020"
+  },
+  "globals": {
+    "background": "var(bg)",
+    "foreground": "var(fg)",
+    "caret": "var(orange)",
+    "selection": "var(selection)",
+    "line_highlight": "var(bg2)",
+    "gutter": "var(bg)",
+    "gutter_foreground": "#454545"
+  },
+  "rules": [
+    {
+      "name": "Comment",
+      "scope": "comment",
+      "foreground": "var(muted)",
+      "font_style": "italic"
+    },
+    {
+      "name": "String",
+      "scope": "string",
+      "foreground": "var(green)"
+    },
+    {
+      "name": "Docstring",
+      "scope": "string.quoted.docstring, comment.block.documentation",
+      "foreground": "var(green2)"
+    },
+    {
+      "name": "Keyword",
+      "scope": "keyword, storage",
+      "foreground": "var(orange)",
+      "font_style": "bold"
+    },
+    {
+      "name": "Control",
+      "scope": "keyword.control",
+      "foreground": "var(orange2)",
+      "font_style": "bold"
+    },
+    {
+      "name": "Function",
+      "scope": "entity.name.function, support.function",
+      "foreground": "var(fgStrong)"
+    },
+    {
+      "name": "Class",
+      "scope": "entity.name.class, entity.name.type, support.type",
+      "foreground": "var(blue)",
+      "font_style": "bold"
+    },
+    {
+      "name": "Number",
+      "scope": "constant.numeric, constant.language",
+      "foreground": "var(yellow)"
+    },
+    {
+      "name": "Operator",
+      "scope": "keyword.operator, punctuation",
+      "foreground": "var(muted2)"
+    },
+    {
+      "name": "Decorator",
+      "scope": "meta.decorator, entity.name.function.decorator",
+      "foreground": "#EB6E52",
+      "font_style": "bold"
+    },
+    {
+      "name": "Invalid",
+      "scope": "invalid",
+      "foreground": "var(red)",
+      "font_style": "underline"
+    }
+  ]
+}

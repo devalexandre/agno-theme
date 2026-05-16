@@ -1,13 +1,22 @@
 # Agno Theme Pack
 
-Pacote de temas inspirado nas cores do Agno da imagem enviada.
+Pacote de temas inspirado na paleta oficial do Agno.
 
 ## Incluído
 
 - `vscode/agno-dark-theme`: extensão completa para VS Code
-- `jetbrains/Agno Dark.icls`: tema para IntelliJ, GoLand, Rider, PyCharm etc.
-- `sublime-text/Agno Dark.sublime-color-scheme`: tema para Sublime Text
-- `vim-neovim/colors/agno-dark.vim`: colorscheme para Vim/Neovim
+- `zed`: extensão de temas para Zed
+- `jetbrains/*.icls`: temas para IntelliJ, GoLand, Rider, PyCharm etc.
+- `sublime-text/*.sublime-color-scheme`: temas para Sublime Text
+- `vim-neovim/colors/*.vim`: colorschemes para Vim/Neovim
+
+## Variações
+
+- `Agno Dark`
+- `Agno One Dark`
+- `Agno Light`
+- `Agno Light Soft`
+- `Agno Light Graphite`
 
 ## VS Code
 
@@ -18,7 +27,7 @@ cp -r vscode/agno-dark-theme ~/.vscode/extensions/
 Reinicie o VS Code e selecione:
 
 ```text
-Preferences: Color Theme -> Agno Dark
+Preferences: Color Theme -> Agno ...
 ```
 
 Também pode testar em modo desenvolvimento:
@@ -28,6 +37,20 @@ code vscode/agno-dark-theme
 ```
 
 Depois pressione `F5`.
+
+## Zed
+
+Instale como dev extension:
+
+```text
+zed: install dev extension -> selecione a pasta zed/
+```
+
+Depois selecione:
+
+```text
+theme selector -> Agno ...
+```
 
 ## JetBrains / Rider / GoLand / IntelliJ
 
@@ -40,15 +63,15 @@ Settings -> Editor -> Color Scheme -> Import Scheme
 Selecione:
 
 ```text
-jetbrains/Agno Dark.icls
+jetbrains/Agno ....icls
 ```
 
 ## Sublime Text
 
-Copie:
+Copie os temas desejados:
 
 ```text
-sublime-text/Agno Dark.sublime-color-scheme
+sublime-text/*.sublime-color-scheme
 ```
 
 para:
@@ -60,25 +83,25 @@ Packages/User/
 Depois selecione o tema em:
 
 ```text
-Preferences -> Select Color Scheme -> Agno Dark
+Preferences -> Select Color Scheme -> Agno ...
 ```
 
 ## Vim / Neovim
 
-Copie:
+Copie os colorschemes:
 
 ```bash
-cp vim-neovim/colors/agno-dark.vim ~/.config/nvim/colors/
+cp vim-neovim/colors/*.vim ~/.config/nvim/colors/
 ```
 
 No `init.vim`:
 
 ```vim
-colorscheme agno-dark
+colorscheme agno-one-dark
 ```
 
 No `init.lua`:
 
 ```lua
-vim.cmd.colorscheme("agno-dark")
+vim.cmd.colorscheme("agno-one-dark")
 ```

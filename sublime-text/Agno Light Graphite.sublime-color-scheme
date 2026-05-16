@@ -1,0 +1,87 @@
+{
+  "name": "Agno Light Graphite",
+  "variables": {
+    "bg": "#FCFCFC",
+    "bg2": "#F9F9F9",
+    "bg3": "#18181B",
+    "fg": "#18181B",
+    "fgStrong": "#09090B",
+    "muted": "#838383",
+    "muted2": "#646464",
+    "orange": "#FF4017",
+    "orange2": "#F25837",
+    "green": "#059669",
+    "yellow": "#F59E0B",
+    "blue": "#2563EB",
+    "red": "#DC2626",
+    "selection": "#FF744826",
+    "border": "#D9D9D9"
+  },
+  "globals": {
+    "background": "var(bg)",
+    "foreground": "var(fg)",
+    "caret": "var(orange)",
+    "selection": "var(selection)",
+    "line_highlight": "var(bg2)",
+    "gutter": "var(bg3)",
+    "gutter_foreground": "#BBBBBB"
+  },
+  "rules": [
+    {
+      "name": "Comment",
+      "scope": "comment",
+      "foreground": "var(muted)",
+      "font_style": "italic"
+    },
+    {
+      "name": "String",
+      "scope": "string",
+      "foreground": "var(green)"
+    },
+    {
+      "name": "Keyword",
+      "scope": "keyword, storage",
+      "foreground": "var(orange)",
+      "font_style": "bold"
+    },
+    {
+      "name": "Control",
+      "scope": "keyword.control",
+      "foreground": "var(orange2)",
+      "font_style": "bold"
+    },
+    {
+      "name": "Function",
+      "scope": "entity.name.function, support.function",
+      "foreground": "var(fgStrong)"
+    },
+    {
+      "name": "Class",
+      "scope": "entity.name.class, entity.name.type, support.type",
+      "foreground": "var(blue)",
+      "font_style": "bold"
+    },
+    {
+      "name": "Number",
+      "scope": "constant.numeric, constant.language",
+      "foreground": "var(yellow)"
+    },
+    {
+      "name": "Operator",
+      "scope": "keyword.operator, punctuation",
+      "foreground": "var(muted2)"
+    },
+    {
+      "name": "Decorator",
+      "scope": "meta.decorator, entity.name.function.decorator",
+      "foreground": "var(orange2)",
+      "font_style": "bold"
+    },
+    {
+      "name": "Invalid",
+      "scope": "invalid",
+      "foreground": "var(red)",
+      "font_style": "underline"
+    }
+  ]
+}
