@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.0.8
+
+- Refined Agno Dark for Go readability.
+- Kept bold emphasis for storage keywords, functions, methods, types, classes, and structs.
+- Softened control keywords, variables, operators, and strings to reduce visual noise.
+
+## 0.0.7
+
+- Updated the base Agno Dark syntax to match the Agno code preview style.
+- Applied yellow strings, orange keywords/operators, brighter foreground text, and a deeper graphite editor background.
+
 ## 0.0.6
 
 - Fixed Marketplace screenshot URLs for the extension overview.

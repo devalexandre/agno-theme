@@ -1,0 +1,10 @@
+[Configuration]
+ColorForeground=#D9D9D9
+ColorBackground=#09090B
+ColorCursor=#FF4017
+ColorBold=#D9D9D9
+ColorBoldUseDefault=FALSE
+ColorPalette=#09090B;#EF4444;#10B981;#FBBF24;#3B82F6;#EA384C;#60A5FA;#D9D9D9;#646464;#F87171;#34D399;#FCD34D;#60A5FA;#FF4848;#0082F3;#FFFFFF
+ColorSelection=#FF7448
+ColorSelectionUseDefault=FALSE
+TabActivityColor=#FF4017

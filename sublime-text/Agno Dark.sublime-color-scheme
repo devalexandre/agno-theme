@@ -1,20 +1,20 @@
 {
   "name": "Agno Dark",
   "variables": {
-    "bg": "#111113",
-    "bg2": "#151518",
+    "bg": "#09090B",
+    "bg2": "#111113",
     "bg3": "#18181B",
-    "fg": "#D7D2CF",
-    "fgStrong": "#F2EDEA",
-    "muted": "#6A6664",
-    "muted2": "#8A8582",
-    "orange": "#FF6A45",
-    "red": "#FF4B2E",
-    "red2": "#B53A28",
-    "yellow": "#FFB86B",
-    "blue": "#8AB4F8",
-    "selection": "#3A211D",
-    "border": "#2A2A2F"
+    "fg": "#F0F0F0",
+    "fgStrong": "#F0F0F0",
+    "muted": "#646464",
+    "muted2": "#8D8D8D",
+    "orange": "#FF4017",
+    "orange2": "#F25837",
+    "yellow": "#FBBF24",
+    "yellow2": "#FCD34D",
+    "blue": "#60A5FA",
+    "selection": "#FF744826",
+    "border": "#202020"
   },
   "globals": {
     "background": "var(bg)",
@@ -35,12 +35,18 @@
     {
       "name": "String",
       "scope": "string",
-      "foreground": "var(orange)"
+      "foreground": "var(yellow)"
     },
     {
       "name": "Keyword",
       "scope": "keyword, storage",
-      "foreground": "var(red)",
+      "foreground": "var(orange)",
+      "font_style": "bold"
+    },
+    {
+      "name": "Control",
+      "scope": "keyword.control",
+      "foreground": "var(orange2)",
       "font_style": "bold"
     },
     {
@@ -51,7 +57,7 @@
     {
       "name": "Class",
       "scope": "entity.name.class, entity.name.type, support.type",
-      "foreground": "#E8E1DD",
+      "foreground": "var(fgStrong)",
       "font_style": "bold"
     },
     {
@@ -61,7 +67,12 @@
     },
     {
       "name": "Operator",
-      "scope": "keyword.operator, punctuation",
+      "scope": "keyword.operator",
+      "foreground": "var(orange2)"
+    },
+    {
+      "name": "Punctuation",
+      "scope": "punctuation",
       "foreground": "var(muted2)"
     }
   ]

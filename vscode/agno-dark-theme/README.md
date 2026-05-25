@@ -47,7 +47,7 @@ Then select one of the Agno themes.
 You can also install a local VSIX:
 
 ```bash
-code --install-extension agno-dark-theme-0.0.6.vsix
+code --install-extension agno-dark-theme-0.0.8.vsix
 ```
 
 ## Palette

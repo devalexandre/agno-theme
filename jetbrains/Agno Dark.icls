@@ -7,45 +7,45 @@
     <property name="originalScheme">Agno Dark</property>
   </metaInfo>
   <colors>
-    <option name="CARET_ROW_COLOR" value="151518" />
-    <option name="CARET_COLOR" value="FF6A45" />
-    <option name="EDITOR_BACKGROUND" value="111113" />
-    <option name="GUTTER_BACKGROUND" value="111113" />
-    <option name="INDENT_GUIDE" value="242428" />
+    <option name="CARET_ROW_COLOR" value="111113" />
+    <option name="CARET_COLOR" value="FF4017" />
+    <option name="EDITOR_BACKGROUND" value="09090B" />
+    <option name="GUTTER_BACKGROUND" value="09090B" />
+    <option name="INDENT_GUIDE" value="202020" />
     <option name="LINE_NUMBERS_COLOR" value="4B4B50" />
     <option name="SELECTION_BACKGROUND_COLOR" value="3A211D" />
-    <option name="WHITESPACES" value="3A3A40" />
+    <option name="WHITESPACES" value="262628" />
   </colors>
   <attributes>
     <option name="TEXT">
-      <value><option name="FOREGROUND" value="D7D2CF" /><option name="BACKGROUND" value="111113" /></value>
+      <value><option name="FOREGROUND" value="F0F0F0" /><option name="BACKGROUND" value="09090B" /></value>
     </option>
     <option name="DEFAULT_KEYWORD">
-      <value><option name="FOREGROUND" value="FF4B2E" /><option name="FONT_TYPE" value="1" /></value>
+      <value><option name="FOREGROUND" value="FF4017" /><option name="FONT_TYPE" value="1" /></value>
     </option>
     <option name="DEFAULT_STRING">
-      <value><option name="FOREGROUND" value="FF6A45" /></value>
+      <value><option name="FOREGROUND" value="FBBF24" /></value>
     </option>
     <option name="DEFAULT_DOC_COMMENT">
-      <value><option name="FOREGROUND" value="FF4B2E" /></value>
+      <value><option name="FOREGROUND" value="FCD34D" /></value>
     </option>
     <option name="DEFAULT_LINE_COMMENT">
-      <value><option name="FOREGROUND" value="6A6664" /><option name="FONT_TYPE" value="2" /></value>
+      <value><option name="FOREGROUND" value="646464" /><option name="FONT_TYPE" value="2" /></value>
     </option>
     <option name="DEFAULT_BLOCK_COMMENT">
-      <value><option name="FOREGROUND" value="6A6664" /><option name="FONT_TYPE" value="2" /></value>
+      <value><option name="FOREGROUND" value="646464" /><option name="FONT_TYPE" value="2" /></value>
     </option>
     <option name="DEFAULT_FUNCTION_DECLARATION">
-      <value><option name="FOREGROUND" value="F2EDEA" /></value>
+      <value><option name="FOREGROUND" value="F0F0F0" /></value>
     </option>
     <option name="DEFAULT_CLASS_NAME">
-      <value><option name="FOREGROUND" value="E8E1DD" /><option name="FONT_TYPE" value="1" /></value>
+      <value><option name="FOREGROUND" value="F0F0F0" /><option name="FONT_TYPE" value="1" /></value>
     </option>
     <option name="DEFAULT_NUMBER">
-      <value><option name="FOREGROUND" value="FFB86B" /></value>
+      <value><option name="FOREGROUND" value="FBBF24" /></value>
     </option>
     <option name="DEFAULT_OPERATION_SIGN">
-      <value><option name="FOREGROUND" value="8A8582" /></value>
+      <value><option name="FOREGROUND" value="F25837" /></value>
     </option>
   </attributes>
 </scheme>
